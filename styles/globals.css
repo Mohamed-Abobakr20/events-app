@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  background-color: #1F4172;
+}
+
+.navbar {
+  background-color: rgb(19, 32, 67) !important;
+}
+
+.card {
+  background-color: #FDF0F0 !important;
+  color: #132043 !important;
+}
+
+form{
+  background-color: #FDF0F0;
+  padding: 20px;
+  border-radius: 10px;
+  color: #132043 !important;
+}
+
+.btn {
+  color: #132043 !important;
+  background-color: #F1B4BB !important;
+  font-weight: 600;
+}
+
+i{
+  color: #F1B4BB;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+.not-found{
+  color: #FDF0F0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.date, .address,.card-text{
+  color: #1F4172;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.card-body{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
